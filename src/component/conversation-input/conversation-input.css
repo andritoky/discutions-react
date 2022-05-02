@@ -1,0 +1,15 @@
+.box{
+    position: relative;
+    width: 100%;
+}
+.box-input{
+    position: absolute;
+    top:0;
+    left: 0;
+    right:70px ;
+}
+.box-send{
+    position: absolute;
+    top: 0;
+    right: 0;
+}

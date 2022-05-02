@@ -1,0 +1,40 @@
+.message{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 350px;
+    right: 0;
+    border-left: 2px solid rgba(109, 109, 109, 0.048) ;
+    background-color: rgba(0, 0, 0, 0.192);
+}
+.message-block{
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 70px;
+    overflow-y:scroll;
+}
+.msg-bl{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+    
+    /* background-color: rgba(165, 42, 42, 0.253); */
+}
+
+.message-input{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+}
+.msg-inp{
+    position: relative;
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 90%;
+    height: 100%;
+}

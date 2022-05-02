@@ -1,0 +1,23 @@
+[
+    {
+        "theme" : "Bleu" ,
+        "color" : "#00b2df",
+        "themeCss" : "theme-bleu theme",
+        "userClass" : "users-theme-bleu",
+        "msgClass" : "msg-theme-bleu"
+    },
+    {
+        "theme" : "Vert",
+        "color" : "#00af43",
+        "themeCss" : "theme-vert theme",
+        "userClass" : "users-theme-vert",
+        "msgClass" : "msg-theme-vert"
+    },
+    {
+        "theme" : "Gris",
+        "color" : "#424142",
+        "themeCss" : "theme-gris theme",
+        "userClass" : "users-theme-gris",
+        "msgClass" : "msg-theme-gris"
+    }
+]

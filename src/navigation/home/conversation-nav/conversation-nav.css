@@ -1,0 +1,59 @@
+.block-nav{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.078);
+    background-color: white;
+}
+.box-nav{
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    /* height: 30px; */
+    /* background-color: rgb(52, 92, 79); */
+}
+.send-nom{
+    width:80% ;
+    padding: 0;
+    /* background-color: rgb(184, 174, 34); */
+}
+.box-stream{
+    position: absolute;
+    width:100px ;
+    height: 100%;
+    top: 0;
+    right: 0;
+    text-align: right;
+    /* background-color: aquamarine;  */
+}
+
+.box-stream .icone{
+    display: inline-block;
+    padding-top: 2px;
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
+    text-align: center;
+    color: white;
+    background-color: var(--fond-theme);
+    border-radius:50px;
+}
+
+.liste-chat{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .box-stream .icone{
+        display: none;
+    }
+    .liste-chat{
+        display: block;
+    }
+    
+}

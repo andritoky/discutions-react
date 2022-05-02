@@ -1,0 +1,100 @@
+.block-msg{
+    position: relative;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.box-msg{
+    position: relative;
+    width: 100%;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-top: 10px;
+    /* background-color: aqua; */
+}
+.box-msg-right{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    margin-top:20px;
+    text-align: right;
+    padding-top: 10px;
+    /* background-color: aqua; */
+}
+
+.profile-right{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    border-radius: 50px;
+}
+.profile-left{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    border-radius: 50px;
+}
+.profile-right img ,.profile-left img {
+    width:100%;
+}
+
+
+
+
+.msg-text{
+    width: max-content;
+    max-width: 50%;
+    border-radius: 10px;
+    background-color: var(--fond-theme);
+    color: var(--text-color);
+    padding: 10px;
+    margin-left: 60px;
+}
+.msg-text-right{
+    width: max-content;
+    max-width: 50%;
+    /* float: right; */
+    border-radius: 10px;
+    background-color: rgba(228, 228, 228, 0.664);
+    padding: 10px;
+    margin-right: 60px;
+}
+.time{
+    position: absolute;
+    top: 50px;
+    font-size: 10px;
+    opacity: 0.8;
+}
+.time-right{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    font-size: 10px;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1000px) {
+    .msg-text{
+        max-width: 70%;
+    }
+    .msg-text-right{
+        max-width: 70%;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .msg-text{
+        max-width: 60%;
+    }
+    .msg-text-right{
+        max-width: 57%;
+    }
+    
+}

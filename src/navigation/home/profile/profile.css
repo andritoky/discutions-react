@@ -1,0 +1,62 @@
+.block-profile{
+    position: absolute;
+    width: 250px;
+    top:0;
+    bottom: 0;
+    right: 0;
+    border-left: 1.5px solid rgba(0, 0, 0, 0.078);
+    /* background-color: aqua; */
+}
+.box-profile{
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.image-profile{
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    border: 5px solid rgba(5, 5, 5, 0.105);
+    border-radius: 75px;
+    overflow: hidden;
+}
+.image-profile img{
+    width: 100%;
+}
+.box-profile p{
+    margin: 0px;
+    padding: 0px;
+}
+.pr-nom{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.pr-contact , .pr-email{
+    font-size: 13px;
+    font-weight: lighter;
+    opacity: 0.6;
+}
+
+.box-log-out{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+.box-log-out2{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: right;
+}
+
+@media screen and (max-width: 1000px) {
+    .block-profile{
+        display: none;
+    }
+    
+}

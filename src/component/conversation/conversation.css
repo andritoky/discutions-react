@@ -1,0 +1,30 @@
+.block-msg{
+    position: relative;
+    width: 100%;
+}
+.box-msg{
+    position: relative;
+    width: 100%;
+    margin-top:20px;
+    margin-bottom:20px;
+    /* background-color: brown; */
+}
+.box-msg-right{
+    position: relative;
+    width: 100%;
+    margin-top:20px;
+    text-align: right;
+    /* background-color: brown; */
+}
+
+.msg-text{
+    border-radius: 10px;
+    background-color: rgba(14, 211, 211, 0.733);
+    color: white;
+    padding: 10px;
+}
+.msg-text-right{
+    border-radius: 10px;
+    background-color: rgba(228, 228, 228, 0.664);
+    padding: 10px;
+}

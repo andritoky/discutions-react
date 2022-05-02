@@ -1,0 +1,56 @@
+.users{
+    position: absolute;
+    width: 350px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(0, 178, 223);
+    color: aliceblue;
+    border-radius: 5px;
+}
+.users-search{
+    position: relative;
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+.u-search{
+    margin: 0 auto;
+    width: 85%;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+}
+.inp-search{
+    background: none;
+    border: none;
+    color: white;
+}
+.inp-search::placeholder { 
+    color: white;
+  }
+.inp-search:focus{
+    background: none;
+    border: none;
+    color: white;
+}
+.users-liste{
+    position: relative;
+    width: 100%;
+}
+
+
+.users-nav{
+    margin: 0 auto;
+    width: 85%;
+}
+.u-nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    font-size: 45px;
+}
+.chat{
+    font-weight: lighter;
+    font-size: 30px;
+}

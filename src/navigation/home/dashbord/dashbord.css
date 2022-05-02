@@ -1,0 +1,27 @@
+.contener-dashbord{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.block-dashbord{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.user-menus2{
+    display:none;
+}
+
+@media screen and (max-width: 700px) {
+    .user-menus{
+        display:none;
+    }
+    .user-menus2{
+        display:block;
+    }
+    
+}
